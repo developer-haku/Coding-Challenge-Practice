@@ -12,4 +12,4 @@ Problem number in the archieves should match the number in the solution file nam
 
 ## My Badge
 
-![PE_PROFILE_IMG](https://projecteuler.net/profile/developer.haku.png)
+![PE_PROFILE_IMG](https://projecteuler.net/profile/developer.haku.png?kill_cache=1)
