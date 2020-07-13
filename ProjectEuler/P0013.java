@@ -109,4 +109,22 @@ public class P0013 {
         }
         System.out.println(sum.toString().substring(0, 10));
     }
+
+    // dont use BigInteger
+    public static void s1(String[] digits) {
+        int carry = 0;
+        String sum = "";
+        for (int i = digits[0].length() - 1; i > -1; i--) {
+            int tempSum = 0;
+            for (int j = 0; j < digits.length; j++) {
+                tempSum += Character.getNumericValue(digits[j].charAt(i));
+            }
+            tempSum += carry;
+            carry = tempSum / 10;
+            sum = String.valueOf(tempSum % 10) + sum;
+            if (i == 0)
+                sum = String.valueOf(carry) + sum;
+        }
+        System.out.println(sum.substring(0, 10));
+    }
 }
