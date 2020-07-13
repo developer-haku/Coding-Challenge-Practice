@@ -1,5 +1,3 @@
-import javax.imageio.ImageTypeSpecifier;
-
 public class P0007 {
     public static void main(String[] args) {
         int i = 2, counter = 0;
