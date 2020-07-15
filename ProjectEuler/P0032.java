@@ -5,6 +5,7 @@ public class P0032 {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
         HashSet<Integer> products = new HashSet<>();
+        
         // Filter numbers with no duplicated digits
         for (int i = 1; i < 100000; i++) {
             String strNum = Integer.toString(i);
