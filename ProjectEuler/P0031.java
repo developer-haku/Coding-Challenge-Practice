@@ -1,6 +1,3 @@
-import java.lang.annotation.Target;
-import java.util.Arrays;
-
 public class P0031 {
     private static int[] coins = { 1, 2, 5, 10, 20, 50, 100, 200 };
 
